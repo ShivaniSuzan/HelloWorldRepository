@@ -25,7 +25,7 @@ Calculator myCalc = new Calculator();
       public void testCalc() {
 	Calcmul Testcalmul = new Calcmul();
 	Calculator testcaladd = new Calculator();
-	assertEquals(testcalmul.mul(),18);
+	assertEquals(Testcalmul.mul(),18);
 	assertEquals(testcaladd.add(),9);
 
         assertEquals("Result", 9, myCalc.add(3,6));
